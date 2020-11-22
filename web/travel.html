@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>旅游</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
+
+</head>
+<body>
+<!--    头部-->
+    <div class="header">
+        <div class="lt">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo.png">
+            </div>
+            <div class="title">环游天下</div>
+        </div>
+        <div class="login">
+            <div class="English">
+                <div class="a">用户名
+                    <input type="text" style="width: 50px;" class="length">
+                </div>
+                <div class="a">密码
+                    <input type="text" style="width: 50px;" class="length">
+                </div>
+                <div class="a">
+                    <input type="button" value="登录" class="denglu"/>
+                    <input type="button" value="注册" class="denglu" onclick="window.location.href='login.html'"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    主体-->
+<div>
+    <div class="main" id="main">
+        <div class="banner" id="banner">
+            <a href="">
+                <div class="banner-slide slide1 slide-active"></div>
+            </a>
+            <a href="">
+                <div class="banner-slide slide2 "></div>
+            </a>
+            <a href="">
+                <div class="banner-slide slide3"></div>
+            </a>
+        </div>
+        <nav>
+            <div class="wrap">
+                <ul class="level">
+                    <li><a href="">首页</a></li>
+                    <li><a href="">行程</a>
+                        <ul class="two">
+                            <li><a href="#">时间安排</a></li>
+                            <li><a href="#">乘车路线</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">游记</a>
+                        <ul class="two">
+                            <li><a href="#">美食推荐</a></li>
+                            <li><a href="#">游玩攻略</a></li>
+                            <li><a href="#">朋友评价</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">目的地</a>
+                        <ul class="two">
+                            <li><a href="#">厦门</a></li>
+                            <li><a href="#">北京</a></li>
+                            <li><a href="#">武汉</a></li>
+                            <li><a href="#">张家界</a></li>
+                            <li><a href="#">桂林</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">酒店</a>
+                        <ul class="two">
+                            <li><a href="#">酒店预定</a></li>
+                            <li><a href="#">返现规则</a></li>
+                            <li><a href="#">酒店攻略</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li><a href="">特价</a></li>
+                    <li><a href="">帮助</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="word1">START YOURNEY</div>
+        <div class="word2">WHY NOT CHOOSE A TRIP A PERSON OR A GROUP OF PEOPLE TO SEE THE BEAUTY OF THE WORLD.TO RELAX THEIR BRAINS?</div>
+        <input type="text" class="input" placeholder="搜索行程、游记、目的地">
+        <div class="search">
+            <ul>
+                <li><a href="#">巴黎游</a></li>
+                <li><a href="#">法国游</a></li>
+                <li><a href="#">北京游</a></li>
+                <li><a href="#">西安游</a></li>
+                <li><a href="#">泰国游</a></li>
+                <li><a href="#">东京游</a></li>
+                <li style="border: 0;padding-right: 0"><a href="#">马来西亚游</a></li>
+            </ul>
+        </div>
+        <a href="javascript:void(0)" class="button prev" id="prev"></a>
+        <a href="javascript:void(0)" class="button next" id="next"></a>
+        <div class="dots" id="dots">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+    <script src="js/travel.js"></script>
+    <div class="middle2">
+        <div class="m-top">
+            <div class="commen weibo">
+                <img src="img/weibo.png">
+                <div class="comm">MICROBLOG</div>
+            </div>
+            <div class="commen weixin">
+                <img src="img/weixin.png">
+                <div class="comm">WECHAT</div>
+            </div>
+            <div class="commen qq">
+                <img src="img/QQ.png">
+                <div class="comm">QQ</div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="m-middle">
+            <div class="headline">热门城市</div>
+            <div class="textarea">Hot City</div>
+        </div>
+        <div class="m-bottom">
+            <div class="m-com">
+                <img src="img/xiamen.png">
+                <div class="des1">厦门</div>
+                <div class="des2">在风姿绰约的海上花园漫步,聆听鼓浪屿的天籁,骑行<br>在沿海环岛,感受最美校园</div>
+            </div>
+            <div class="m-com">
+                <img src="img/beijing.jpg">
+                <div class="des1">北京</div>
+                <div class="des2">探访帝王的痕迹,抚摸北海的碧幽,漫步在北京<br>在北京胡同,领略798的艺术气氛</div>
+            </div>
+            <div class="m-com">
+                <img src="img/wuhan.jpg">
+                <div class="des1">武汉</div>
+                <div class="des2">武大的樱花烂漫,黄鹤楼的千古绝唱,户部港<br>的繁华溢彰,热干面的乡情弥漫</div>
+            </div>
+        </div>
+        <div class="m-bottom">
+            <div class="m-com">
+                <img src="img/zhangjiajie.jpg">
+                <div class="des1">张家界</div>
+                <div class="des2">三千奇峰,秀水八百</div>
+            </div>
+            <div class="m-com">
+                <img src="img/guilin.jpg">
+                <div class="des1">桂林</div>
+                <div class="des2">桂林山水,富甲天下</div>
+            </div>
+            <div class="m-com">
+                <img src="img/xiangang.jpg">
+                <div class="des1">香港</div>
+                <div class="des2">华洋交错,东方明珠</div>
+            </div>
+        </div>
+    </div>
+    <div class="middle3">
+        <div class="m-middle">
+            <div class="headline">精选导游</div>
+            <div class="textarea">selected Guide</div>
+        </div>
+        <div class="m-bottom">
+            <div class="m-com">
+                <img src="img/daoyou1.jpg">
+                <div class="des1">小玉</div>
+                <div class="des2">厦门小雨车队六十多台车均是一年以内的新车！驾驶员<br>向导驾龄均在五年以上,路线熟悉！所有一日游自由行<br>路线都是一对一专车专员,选择我们犹如亲人陪伴左右.</div>
+            </div>
+            <div class="m-com">
+                <img src="img/daoyou3.jpg">
+                <div class="des1">悠米</div>
+                <div class="des2">清迈momo 1968微酒店副老板,目前长居清迈,接清<br>迈拍/旅行mv制作.全球旅拍人,可全球旅拍预<br>约.清迈属于泰北城市,特色好吃的清北菜餐厅.</div>
+            </div>
+            <div class="m-com">
+                <img src="img/daoyou2.jpg">
+                <div class="des1">楠楠</div>
+                <div class="des2">大家好！欢迎大家到八达岭景区观光旅游。今天<br>有幸陪同大家一起参观,我很高兴,望各位<br>能在八达岭渡过一段美好的时光.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="m-middle">
+            <div class="headline">最新同游</div>
+            <div class="textarea">Newest Travel Peer</div>
+        </div>
+        <div class="total">
+            <img src="img/shanghai.jpg">
+            <div class="bottomLayer">杭州到上海旅游 08月20日 3日游 求结伴同游</div>
+        </div>
+        <div class="total">
+            <img src="img/lasa.jpg">
+            <div class="bottomLayer">绍兴出发 8月31日 拉萨 7日游 求结伴</div>
+        </div>
+        <div class="total">
+            <img src="img/lijiang.jpg">
+            <div class="bottomLayer">厦门到丽江旅游 10月01月 5日游 求结伴同游</div>
+        </div>
+    </div>
+    <!--    底部-->
+    <div class="footer">
+        <div class="footer-wrap">
+            <ul>
+                <li><a href="#">地址</a></li>
+                <li><a href="#">网站信息</a></li>
+                <li><a href="#">意见建议</a></li>
+                <li><a href="#">版权信息</a></li>
+                <li style="border: 0;padding-right: 0"><a href="#">邮编</a></li>
+            </ul>
+            <br>
+            <div class="final">Copyright © 2020 Fujian Normal University All Right Reserved.号 </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
